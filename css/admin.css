@@ -1,0 +1,56 @@
+body{
+	font-family: Tahoma;
+	background-color: #FAF9DE;
+	list-style: none;
+}
+
+#div_Navigation{
+	background-color: black;
+	/* border: 1px solid #cccccc; */
+	margin: 10px auto;
+	width:  850px;
+	height: 30px;
+	text-align:center;
+}
+
+div #div_Navigation a{
+	margin-top: 4px;
+	color: white;
+	padding-left: 50px;
+	font-size: 20px;
+	text-decoration:none;
+	//font-family:Cursive;
+}
+
+#div1{
+	 /* border: 1px solid #cccccc;  */
+	width: 900px;
+	height: 800px;
+	margin: 0px auto;
+}
+
+#div2{
+	 /*border: 1px solid red;  */
+	width: 600px;
+	height: 36px;
+	margin: 10px auto;
+	color: green;
+	//font-family:Cursive;
+	font-size: 30px;
+	text-align: center;
+}
+
+#div_userShow{width: 200px; height: 40px; position: relative; left: 800px; top: -80px}
+#img_user{width: 27px; height: 29px; position: relative; top: 10px;}
+#div_admin{width: 250px; height: 100px; margin: 0px auto; border: 1px solid #cccccc;}
+li{float: left;}
+#table_alluser{border: 1px solid #cccccc; margin: 1px auto;}
+#table_alluser tr{border: 1px solid red;}
+#submit{display:block; margin:0px auto;}
+#reset{display:block; margin:0px auto;}
+#ul_admin li{display: block; margin: 0px auto;}
+#a_head{font-size: 32px; margin: 10px auto; display: block; text-align: center}
+#footer{position: relative; width: 1000px; height: 40px;margin:0px auto; color: green; text-align: center; top: 700px; left: -480px;}
+#footer2{position: relative; width: 1000px; height: 40px;margin:0px auto; color: green; text-align: center; top: 400px; left: -60px;}
+
+
