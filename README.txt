@@ -1,14 +1,24 @@
-All function on this website have been completed. 
-On Sign up page I did a little bit extension, when user register 
-their account website will automatically check any input from user and display what's wrong on the input
-When all detail user input are correct then the button 'sign up' will be clickable otherwise it is disable
+School Management system
 
-On admin page, user can watch all user detail from database. And admin can modify all user’s information except ID.
+Home (Brief information about the website. 
 
-all password of both admin and student account are encrypted.
+Staff information is to be displayed as an unordered list.Show the ‘Name’ of the users who are in ‘admin’ level –access level is 1 - by extracting names from the table ‘users’. When the user clicks a staffmember’s name, their detailed information(date of birth and email from table/database) should be shown.If the user clicks his/her nameagain, the detailed information shouldbe hidden. 
 
-The Adminstrator info: (you can log in with username: admin and password : 12345678)
 
-username: admin
-password:12345678
+Sign up 
+
+In sign up page, visitors/students can sign up an account by typing in valid password(at least 8 character without space),username, name, date of birth(A date picker I implement through javascript) and vaild email address. In addition, I used ajax to do a validation of username in order to check if there exist a username in database.
+
+My area
+In my area page, user can view their personal information. Also they can update the detail if needed.
+
+Student feedback
+Student can submit a feedback, indicating if they are satisfy or not.
+
+Administration section
+Only user with access level 1(admin) can access. When common users login, the administration page will not display on website. In this page, admin can see a whole table which contains all of users stored in database. Also, admin can modify information on each persons.
+
+Contact us
+It is just a information page demostrating who you can contact for further information.
+
 
